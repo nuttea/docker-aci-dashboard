@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+   acirb:
+     image: nuttea/docker-aci-dashboard
+     ports:
+       - "3030:3030"
